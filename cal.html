@@ -1,0 +1,126 @@
+
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport"content="width=device-width,initial-scale=1.0">
+    <title>calculator</title>
+    <style>
+    .border{
+      background-color: black;
+      color:white;
+      margin: 40px;
+      border-radius: 10px;
+    }
+    #btn{
+      
+      border: none;
+     border-radius: 5px;
+     height: 30px;
+     width: 30px;
+     background-color: grey;
+     color: white;
+      box-shadow: 0 5px #999;
+      outline: none;
+    }
+    #btn:hover{
+      background-color: grey;
+    }
+    #btn:active {
+  background-color: #3e8e41;
+  box-shadow: 0 3px #666;
+  transform: translateY(4px);
+  
+}
+    #del{
+      background-color: grey;
+      color: white;
+      height:40px;
+      width: 180px;
+      margin-left: 5px;
+      margin-right: 25px;
+      border-radius: 10px;
+      font-size: 30px;
+      border: none;
+      box-shadow: 0 5px #999;
+      outline: none;
+      }
+    #del:hover{
+      background-color: grey;
+ 
+    }
+    #del:active{
+        background-color: #3e8e41;
+  box-shadow: 0 3px #666;
+  transform: translateY(4px);
+    }
+    #dis{
+      height: 50px;
+      width: 200px;
+     font-size: 30px;
+     border-radius: 5px;
+     
+    }
+    
+    </style>
+  </head>
+     <body>
+       <fieldset class="border">
+         <br>
+         <br>
+         
+      <form name="cal">
+        <center>
+          <center>CALCULATOR</center>
+          <br>
+          <br>
+        <input type="text" name="dis"id="dis">
+        <br>
+        <h3 align="center">CASIO</h3>
+        
+        
+        &nbsp;&nbsp;&nbsp;<input type="button" id="btn" value="1" onclick=cal.dis.value+='1'>
+        &nbsp;&nbsp;&nbsp;
+  <input type="button" id="btn" value="2" onclick=cal.dis.value+='2'>&nbsp;&nbsp;&nbsp;
+  <input type="button" id="btn" value="3" onclick=cal.dis.value+='3'>
+    &nbsp;&nbsp;&nbsp;
+     <input type="button" id="btn" value="/" onclick=cal.dis.value+='/'>
+    &nbsp;&nbsp;&nbsp;
+    <br>
+    <br>
+     &nbsp;&nbsp;&nbsp;<input type="button" id="btn"value="4" onclick=cal.dis.value+='4'>
+    &nbsp;&nbsp;&nbsp;
+      <input type="button" id="btn" value="5" onclick=cal.dis.value+='5'>
+    &nbsp;&nbsp;
+       <input type="button" id="btn" value="6"onclick=cal.dis.value+='6'>
+    &nbsp;&nbsp;&nbsp;
+       <input type="button" id="btn" value="*"onclick=cal.dis.value+='*'>
+    &nbsp;&nbsp;&nbsp;
+    <br>
+    <br>
+       &nbsp;&nbsp;&nbsp;<input type="button" id="btn" value="7" onclick=cal.dis.value+='7'>
+    &nbsp;&nbsp;&nbsp;
+      <input type="button" id="btn" value="8" onclick=cal.dis.value+='8'>
+    &nbsp;&nbsp;
+       <input type="button" id="btn" value="9" onclick=cal.dis.value+='9'>
+   &nbsp;&nbsp;&nbsp;
+   <input type="button" id="btn" value="-" onclick=cal.dis.value+='-'>
+   &nbsp;&nbsp;&nbsp;
+    <br>
+    <br>
+        &nbsp;&nbsp;&nbsp;&nbsp;<input type="button" id="btn" value="0" onclick=cal.dis.value+='0'>
+    &nbsp;&nbsp;&nbsp;
+      <input type="button" id="btn" value="." onclick=cal.dis.value+='.'>
+    &nbsp;&nbsp;
+       <input type="button" id="btn" value="=" onclick=cal.dis.value=eval(cal.dis.value)>
+    &nbsp;&nbsp;&nbsp;
+   <input type="button" id="btn" value="+" onclick=cal.dis.value+='+'>
+   &nbsp;&nbsp;&nbsp;&nbsp;
+    <br>
+    <br>
+    &nbsp;&nbsp;<input type="reset" id="del" value="CLOSE">
+        </center>
+        <form> 
+        </fieldset>
+     </body>
+</html>
+  
