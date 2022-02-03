@@ -1,0 +1,56 @@
+.border{
+      background-color: black;
+      color:white;
+      margin: 40px;
+      border-radius: 10px;
+    }
+    #btn{
+      
+      border: none;
+     border-radius: 5px;
+     height: 30px;
+     width: 30px;
+     background-color: grey;
+     color: white;
+      box-shadow: 0 5px #999;
+      outline: none;
+    }
+    #btn:hover{
+      background-color: grey;
+    }
+    #btn:active {
+  background-color: #3e8e41;
+  box-shadow: 0 3px #666;
+  transform: translateY(4px);
+  
+}
+    #del{
+      background-color: grey;
+      color: white;
+      height:40px;
+      width: 180px;
+      margin-left: 5px;
+      margin-right: 25px;
+      border-radius: 10px;
+      font-size: 30px;
+      border: none;
+      box-shadow: 0 5px #999;
+      outline: none;
+      }
+    #del:hover{
+      background-color: grey;
+ 
+    }
+    #del:active{
+        background-color: #3e8e41;
+  box-shadow: 0 3px #666;
+  transform: translateY(4px);
+    }
+    #dis{
+      height: 50px;
+      width: 200px;
+     font-size: 30px;
+     border-radius: 5px;
+     
+    }
+    
